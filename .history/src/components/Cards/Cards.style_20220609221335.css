@@ -1,0 +1,13 @@
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.cards__item{
+    flex-basis: 20%;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: lightslategray;
+}

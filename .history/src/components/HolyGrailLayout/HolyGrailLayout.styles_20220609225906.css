@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;    
+    height: 80vh;
+    }
+    .container__header{
+        background-color: dodgerblue;
+    }
+    .container__main{
+        /* Take the remaining height */
+        flex-grow: 1;        
+        /*  Layout the left sidebar, main content and right sidebar */
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container__left{
+        width: 25%;
+        padding: 20px;
+        align-items: flex-end;
+        border: 1px solid #ddd;
+    }
+    .container__middle{
+        /* Take the remaining width */
+        flex-grow: 1;
+        padding: 20px;
+        border: 1px solid #ddd;
+    }
+
+    .container__right{
+        width: 20%;
+        padding: 20px;
+        border: 1px solid #ddd;
+    }
+
+    .container__footer{
+        background-color: #ddd;
+    }

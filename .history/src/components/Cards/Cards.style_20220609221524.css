@@ -1,0 +1,14 @@
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards__item{
+    flex-basis: 20%;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: lightslategray;
+}

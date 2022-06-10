@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    }
+    .container__main{
+        /* Take the remaining height */
+        flex-grow: 1;
+    }
